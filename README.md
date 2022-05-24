@@ -1,4 +1,4 @@
-# Medical Classification
+# Pneumonia Diagnosis
 ****
 ## Computer Hardware
 * CPU: Intel i9-10900K
