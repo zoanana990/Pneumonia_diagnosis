@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>782</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QPushButton" name="Training">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>130</y>
+                        <width>201</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Training</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="Selected_Image">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>200</y>
+                        <width>201</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Select Image</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="TestSelectedImage">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>300</y>
+                        <width>201</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Test Selected Image</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="Prediction">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>350</y>
+                        <width>201</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Predict Classes: </string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="Filename">
+                <property name="geometry">
+                    <rect>
+                        <x>220</x>
+                        <y>540</y>
+                        <width>551</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Filename:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="Picture_Box">
+                <property name="geometry">
+                    <rect>
+                        <x>230</x>
+                        <y>10</y>
+                        <width>531</width>
+                        <height>501</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string/>
+                </property>
+            </widget>
+            <widget class="QLabel" name="Normal_P">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>390</y>
+                        <width>201</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>NORMAL(%):</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="PNEUMONIA_P">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>430</y>
+                        <width>201</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>PNEUMONIA(%):</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="PNEUMONIA_P_3">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>170</y>
+                        <width>201</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>--------------------------------------------</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="InputEpoch">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>10</y>
+                        <width>91</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="InputBatch">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>50</y>
+                        <width>91</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="InputLearning">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>90</y>
+                        <width>91</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="SetEpoch">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>10</y>
+                        <width>81</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Epoch</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="SetBatch">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>50</y>
+                        <width>81</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Batch</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="SetLearningRate">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>90</y>
+                        <width>81</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>lr</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="SelectModel">
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>250</y>
+                        <width>201</width>
+                        <height>41</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Select Prediction Model</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>782</width>
+                    <height>22</height>
+                </rect>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
