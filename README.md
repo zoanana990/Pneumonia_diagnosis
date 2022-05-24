@@ -23,14 +23,6 @@ https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 This Dataset has approximately 6000 images, and split all dataset into training set, validation set and test set
 
-## Training
-* Use GPU
-   
-![img_1.png](./image/gpu.png)
-
-* Training Example Image
-
-![img_2.png](./image/training.png)
 ## Folder Structure
 ```asm
 ├── cmake-build-debug
